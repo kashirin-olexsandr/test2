@@ -1,0 +1,147 @@
+.hero-section {
+    position: relative;
+    background-image: url(../img/Hero/Hero_Mob.png);
+    background-repeat: no-repeat;
+    padding-top: 281px;
+    padding-bottom: 0px;
+}
+
+.container-hero{
+    padding-bottom: 32px;
+    max-width: 767px;
+}
+
+.title-Hero {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 212px;
+}
+
+.social-links-hero {
+    gap: 4px;
+    display: flex;
+    justify-content: end;
+}
+
+.aHero {
+    box-sizing: border-box;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    transition: border 250ms ease-in-out;
+}
+
+.liIG {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 60px;
+    padding: 10px 11px;
+    width: 37px;
+    height: 37px;
+}
+
+.liIG:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.liFB {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 60px;
+    padding: 9px;
+    width: 37px;
+    height: 37px;
+}
+
+.liFB:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.liYT {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 60px;
+    padding: 10px 8px;
+    width: 37px;
+    height: 37px;
+}
+
+.liYT:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.liGH {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 60px;
+    padding: 9px 7px;
+    width: 37px;
+    height: 37px;
+}
+
+.liGH:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.liEmail {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 60px;
+    padding: 9px 11px;
+    height: 37px;
+}
+
+.liEmail:hover {
+    border: 1px solid rgba(250, 250, 250, 1);
+}
+
+.hero-email {
+    width: auto;
+}
+
+@media (max-width: 374px) {
+    .title-Hero{
+        margin-bottom: 180px;
+    }
+    .container-hero {
+        padding-bottom: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        padding-top: 243px;
+        background-image: url(../img/Hero/Hero_Tabl.png);
+    }
+
+    .container-hero{
+        max-width: 1439px;
+    }
+
+    .title-Hero {
+        line-height: 90px;
+        font-size: 90px;
+        letter-spacing: -0.03em;
+    }
+
+    .social-links-hero {
+        gap: 8px;
+    }
+
+    .aHero {
+        font-size: 16px;
+        min-width: 55px;
+        height: 55px;
+        border-radius: 55px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-section {
+        background-image: url(../img/Hero/Hero_PC.png);
+        background-size: cover;
+    }
+
+    .title-Hero {
+        margin-bottom: 243px;
+    }
+}

@@ -1,0 +1,16 @@
+export const refs = {
+  closeBtnModal: document.querySelector('.close-btn-modal'),
+  headerOpenMenuBtn: document.querySelector('.header-open-menu-btn'),
+  modalOverlay: document.querySelector('.modal-overlay'),
+  closeModalHeader: document.querySelector('.close-modal-header'),
+  closeModalHeaderBtn: document.querySelector('.close-modal-header-btn'),
+  headerMenuBtn: document.querySelector('.header-menu-btn'),
+  skillsList: document.querySelector('.skills-list'),
+  aboutMeList: document.querySelector('.about-me-list'),
+  skillsSwiper: document.querySelector('.skills-swiper'),
+  animateElements: document.querySelectorAll('.marquee__line'),
+  coversSection: document.querySelector('.covers-section'),
+  faqList: document.querySelector('.faq-list'),
+  projectsList: document.querySelector('.project-swiper'),
+  dropdownMenuList: document.querySelector('.dropdown-menu-list'),
+};

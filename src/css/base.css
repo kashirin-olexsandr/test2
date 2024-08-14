@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'InterTight-VariableFont_wght';
+  src: url('../fonts/InterTight-VariableFont_wght.ttf');
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'InterTight-VariableFont_wght', sans-serif;
+  background-color: #1c1d20;
+  color: #fafafa;
+}
+.section {
+  padding-bottom: 64px;
+}
+.container {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-bottom: 96px;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .section {
+    padding-bottom: 164px;
+  }
+  .container {
+    max-width: 1440px;
+  }
+}
+/* common for  btn */
+.red-btn {
+  border: none;
+  border-radius: 60px;
+  background: #ed3b44;
+  outline: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.red-btn:hover,
+.red-btn:focus {
+  background-color: #e0373f;
+}
+
+/* elements visibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
